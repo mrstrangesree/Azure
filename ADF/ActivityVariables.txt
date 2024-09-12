@@ -1,0 +1,14 @@
+Copy data Activity:
+
+@activity('Copy data').output.executionDetails[0].status
+
+@activity('Copy data').output.errors[0].Message
+
+@activity('Copy data').error?.message
+
+@activity('Copy data').output.rowsRead
+
+@activity('Copy data').output.rowsCopied
+
+Lookup Activity:
+available properties are 'errorCode, message, failureType, target, details'
